@@ -11,7 +11,7 @@ export class ArticleEntity {
   constructor() {
     this.title = '';
     this.description = '';
-    this.urlToImage = '';
+    this.url = '';
     this.urlToImage = '';
     this.publishedAt = '';
     this.source = new Source();
