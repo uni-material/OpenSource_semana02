@@ -1,0 +1,21 @@
+import {Source} from "./source.entity";
+
+export class ArticleEntity {
+  title: string;
+  description: string;
+  url: string;
+  urlToImage: string;
+  publishedAt: string;
+  source: Source;
+
+  constructor() {
+    this.title = '';
+    this.description = '';
+    this.urlToImage = '';
+    this.urlToImage = '';
+    this.publishedAt = '';
+    this.source = new Source();
+  }
+
+
+}
