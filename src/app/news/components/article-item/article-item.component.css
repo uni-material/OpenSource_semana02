@@ -1,0 +1,15 @@
+.article-item {
+  margin: 4px;
+}
+
+.actions-section {
+  display: flex;
+}
+
+.actions-section button {
+  font-size: large;
+}
+
+.default-spacer{
+  flex: 1 1 auto;
+}
