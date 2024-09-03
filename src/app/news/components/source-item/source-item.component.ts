@@ -10,7 +10,7 @@ import {MatListItem} from "@angular/material/list";
   templateUrl: './source-item.component.html',
   styleUrl: './source-item.component.css'
 })
-export class SourceItemComponent {
+export class Source {
   @Input() source!: Source;
   @Output() sourceSelected = new EventEmitter();
 

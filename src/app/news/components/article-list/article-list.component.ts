@@ -10,7 +10,7 @@ import {ArticleItemComponent} from "../article-item/article-item.component";
   templateUrl: './article-list.component.html',
   styleUrl: './article-list.component.css'
 })
-export class ArticleListComponent {
+export class Article {
   title='CatchUp';
 
   @Input() articles!: Array<Article>;

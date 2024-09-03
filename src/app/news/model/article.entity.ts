@@ -1,5 +1,6 @@
 import {Source} from "./source.entity";
 
+
 export class ArticleEntity {
   title: string;
   description: string;

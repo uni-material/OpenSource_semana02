@@ -14,7 +14,7 @@ import {MatCard, MatCardActions, MatCardContent, MatCardHeader, MatCardTitleGrou
   templateUrl: './article-item.component.html',
   styleUrl: './article-item.component.css'
 })
-export class ArticleItemComponent {
+export class Article {
   @Input() article!: Article;
 
 

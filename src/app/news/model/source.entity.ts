@@ -1,6 +1,6 @@
 import * as url from "node:url";
 
-export class SourceEntity {
+export class Source {
   id: string;
   name: string;
   url: string;
